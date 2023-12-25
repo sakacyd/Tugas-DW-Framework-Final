@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Urban Vibes | Tugas DW</title>
+  <link rel="shortcut icon" href="./sources/logo_urban.png" type="image/x-icon">
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #dbe3e1">
+    <div class="container-fluid">
+      <img src="./sources/logo_urban.png" alt="" style="width: 100px; height: auto" />
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ms-auto mx-auto">
+          <li class="nav-item">
+            <a class="nav-link mx-2" aria-current="page" href="./index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link mx-2" href="./aboutus.html">Tentang Kami</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link mx-2" href="#" id="liveAlertBtn">Layanan Produk</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link mx-2 dropdown-toggle active" href="#" id="navbarDropdownMenuLink" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Order Here
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="background-color: #dbe3e1">
+              <li><a class="dropdown-item" href="#">Cara Order</a></li>
+              <li><a class="dropdown-item" href="./order.html">Order</a></li>
+              <li><a class="dropdown-item" href="#" id="liveToastBtn">Contact us</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div id="liveAlertPlaceholder"></div>
+  <div class="toast-container position-fixed bottom-0 end-0 p-3">
+    <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+      <div class="toast-header">
+        <img src="./sources/logo_urban.png" class="rounded me-2" alt="..." style="width: 40px; height: 40px" />
+        <strong class="me-auto">Admin Urban Vibes</strong>
+        <small>1 seconds ago</small>
+        <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+      </div>
+      <div class="toast-body">Hello, Selamat datang di website Kami.</div>
+      <hr>
+      <div class="toast-body">Untuk Informasi Layanan Produk dapat menghubungi Admin Farah : 0822-2218-882</div>
+      <hr>
+      <div class="toast-body">Untuk Informasi Pengaduan Layanan Produk dapat menghubungi Admin Deni : 0844-4413-332
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid d-flex p-5" style="
+        background-image: url(./sources/cover2.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+      ">
+    <h2 class="">Cara Order</h2>
+  </div>
+  <div class="container-fluid d-absolute p-2" style="background-color: #dbe3e1">
+    <h3 class="text-center">Praktis & Anti Ribet</h3>
+    <h1 class="text-center">Cara Order Online</h1>
+    <div class="container-fluid">
+      <div class="row justify-content-center">
+        <div class="col-12 col-sm-6 col-lg-4 mb-4">
+          <div class="card text-center h-100">
+            <div class="d-flex justify-content-center">
+              <img src="./sources/image-gallery.png" class="card-img-top p-2" alt="..." style="width: 100px" />
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Siapkan File</h5>
+              <p class="card-text">
+                Siapkan file desain yang akan dicetak dengan resolusi tinggi. Dimensi 1000px ke atas dengan format PNG
+                transparan atau file master Corel/AI/PSD.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4 mb-4">
+          <div class="card text-center h-100">
+            <div class="d-flex justify-content-center">
+              <img src="./sources/computer.png" class="card-img-top p-2" alt="..." style="width: 100px" />
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Order Website</h5>
+              <p class="card-text">
+                Klik “order now”, dan isi from order: Nama / Alamat (Nama Jalan/Kota/Kec/Kel) / Kodepos / No. HP /
+                Produk: (jenis/ukuran/jumlah).
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4 mb-4">
+          <div class="card text-center h-100">
+            <div class="d-flex justify-content-center">
+              <img src="./sources/send-money.png" class="card-img-top p-2" alt="..." style="width: 90px" />
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Transfer</h5>
+              <p class="card-text">
+                Setelah mendapatkan total rincian biaya, silakan lakukan konfirmasi pembayaran melalui DANA/OVO/Virtual
+                Account dan pelunasan.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4 mb-3">
+          <div class="card text-center h-100">
+            <div class="d-flex justify-content-center">
+              <img src="./sources/fast-time.png" class="card-img-top p-2" alt="..." style="width: 96px" />
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Proses Kerja</h5>
+              <p class="card-text">
+                Order akan diproses dalam waktu 2-4 hari kerja (satuan). Untuk order lusinan tergantung jumlah dan load
+                antrian.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4 mb-3">
+          <div class="card text-center h-100">
+            <div class="d-flex justify-content-center">
+              <img src="./sources/fast-delivery.png" class="card-img-top p-2" alt="..." style="width: 96px" />
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Pengiriman</h5>
+              <p class="card-text">
+                Barang akan dikirimkan ke tempat Anda sesuai dengan ekspedisi yang dipilih saat order.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4 mb-3">
+          <div class="card text-center h-100">
+            <div class="d-flex justify-content-center">
+              <img src="./sources/receiver.png" class="card-img-top p-2" alt="..." style="width: 96px" />
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Barang Diterima</h5>
+              <p class="card-text">
+                Setelah barang sampai ditangan pelanggan lakukan video unboxing untuk bukti penerimaan barang.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid p-5" style="background-color: #6a8f89">
+    <div class="row justify-content-center align-items-center">
+      <div class="col-12 col-sm-6 col-lg-4 mb-4">
+        <img src="./sources/katalog5.png" class="rounded float-start img-thumbnail" alt="...">
+      </div>
+      <div class="col-12 col-sm-6 col-lg-4 text-white">
+        <h5>Bingung Custom design sablon untuk T-shirst anda ?</h5>
+        <h2>Custom Sendiri Dengan Design Yang Sudah Kami Sediakan Gratis !</h2>
+        <h5>Banyak pilihan template design unik yang kami sediakan.</h5>
+        <a class="btn btn-success mt-3 float-end" href="">Order Sekarang</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid p-5" style="background-color: #dbe3e1">
+    <h1 class="text-center">Contoh Custom Design</h1>
+    <div class="row justify-content-center">
+      <div class="col-6 col-sm-3 col-lg-2">
+        <img src="./sources/katalog1.png" class="img-thumbnail p-2" alt="...">
+      </div>
+      <div class="col-6 col-sm-3 col-lg-2">
+        <img src="./sources/katalog2.png" class="img-thumbnail p-2" alt="...">
+      </div>
+      <div class="col-6 col-sm-3 col-lg-2">
+        <img src="./sources/katalog3.png" class="img-thumbnail p-2" alt="...">
+      </div>
+      <div class="col-6 col-sm-3 col-lg-2">
+        <img src="./sources/katalog4.png" class="img-thumbnail p-2" alt="...">
+      </div>
+    </div>
+  </div>
+  <footer class="text-center text-white" style="background-color: #6a8f89">
+    <div class="container-fluid pt-2">
+      <section class="mb-2">
+        <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
+          data-mdb-ripple-color="dark"><i class="fab fa-google" style="color: white"></i></a>
+        <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
+          data-mdb-ripple-color="dark"><i class="fab fa-instagram" style="color: white"></i></a>
+        <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
+          data-mdb-ripple-color="dark"><i class="fab fa-linkedin" style="color: white"></i></a>
+        <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
+          data-mdb-ripple-color="dark"><i class="fab fa-github" style="color: white"></i></a>
+      </section>
+    </div>
+    <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+      © 2020 Copyright.
+      <a class="text-dark text-decoration-none" href="#">Urban Vibes Tugas Desain Web - A</a>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/4a870cad71.js" crossorigin="anonymous"></script>
+  <script src="./sources/script.js"></script>
+</body>
+
+</html>
